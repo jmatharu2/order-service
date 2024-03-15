@@ -1,0 +1,20 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-0
+  client:
+    service-url:
+      defaultZone: EUREKA_SERVER_ADDRESS
+
+spring:
+  data:
+    mongodb:
+      uri: SPRING_DATA_MONGODB_URI
+      host: atlas-cluster.mqdj7js.mongodb.net
+      port: 27017
+      database: orderdb
+      repositories:
+        enabled: true
+
+        
+
